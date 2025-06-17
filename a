@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sydney Sound Scene – Gig Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .gig-list {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .gig {
+      background: white;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-left: 5px solid #0077cc;
+    }
+    .gig h2 {
+      margin: 0 0 5px 0;
+      font-size: 1.2rem;
+    }
+    .gig .meta {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sydney Sound Scene – Gig Guide</h1>
+  </header>
+
+  <div class="gig-list">
+    <div class="gig">
+      <h2>The Bernies @ The Lansdowne</h2>
+      <div class="meta">Friday, July 12 · Chippendale</div>
+    </div>
+    <div class="gig">
+      <h2>Strip of Cleeve + Guests @ Oxford Art Factory</h2>
+      <div class="meta">Thursday, July 18 · Darlinghurst</div>
+    </div>
+    <div class="gig">
+      <h2>Pacific Avenue @ Metro Theatre</h2>
+      <div class="meta">Saturday, November 30 · Sydney CBD</div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Sydney Sound Scene
+  </footer>
+</body>
+</html>
